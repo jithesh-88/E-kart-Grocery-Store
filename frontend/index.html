@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emart Inventory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🛒 Emart Inventory</h1>
+
+    <!-- INPUT FORM -->
+    <input id="name" placeholder="Product Name">
+    <input id="price" type="number" placeholder="Price">
+    <input id="quantity" type="number" placeholder="Quantity">
+
+    <button onclick="addProduct()">Add Product</button>
+
+    <!-- PRODUCT LIST -->
+    <h2>Product List</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="productTable"></tbody>
+    </table>
+
+    <!-- LINK JS FILE -->
+    <script src="script.js"></script>
+
+</body>
+</html>
