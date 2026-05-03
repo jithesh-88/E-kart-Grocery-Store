@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1 {
+    color: green;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
